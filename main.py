@@ -5,6 +5,9 @@ Custom routes provide in-character conversational AI intelligence for all charac
 """
 from __future__ import annotations
 
+import os
+os.environ.setdefault('ALO_API_KEY', 'standalone-live-key')
+
 import random
 from pathlib import Path
 from typing import List
